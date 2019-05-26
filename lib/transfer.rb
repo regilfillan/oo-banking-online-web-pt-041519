@@ -10,8 +10,8 @@ class Transfer
   end
   
   def valid?
-   account.sender.valid?
-   acount.receiver.valid?
+   sender.valid?
+   receiver.valid?
   end
   
 end
